@@ -7,7 +7,7 @@
 </script>
 
 <template>
-  <div class="min-w-[520px] mx-auto py-6 ">
+  <div class="max-w-[520px] mx-auto py-6 px-8">
     <HeaderSection />
     <GoalsSection />
     <QuestionsSection :questionNumber=1 :question="'What is your name'" />

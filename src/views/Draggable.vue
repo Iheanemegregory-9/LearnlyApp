@@ -1,6 +1,6 @@
 <template>
 
-  <div class="max-w-[520px] mx-auto py-6 ">
+  <div class="max-w-[520px] mx-auto py-6 px-6">
     <DragAndDropSection />
   </div>
 </template>

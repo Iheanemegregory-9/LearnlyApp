@@ -24,7 +24,7 @@
         <div 
             v-for="index in 4" 
             :key="index"
-            class="w-55 h-25 py-10 px-10 border border-dashed border-purple-600 bg-purple-200 rounded-md" 
+            class="w-35 h-15 py-10  border border-dashed border-purple-600 bg-purple-200 rounded-md" 
             @drop="onDrop($event, index)" 
             @dragover.prevent
             @dragenter.prevent
@@ -34,7 +34,7 @@
     
     </div>
         <div 
-            class="w-55 h-25 py-10 px-10 border border-dashed border-purple-600 bg-purple-200 rounded-md col-span-2 justify-self-center"
+            class="w-35 h-15 py-10  border border-dashed border-purple-600 bg-purple-200 rounded-md col-span-2 justify-self-center"
             @drop="onDrop($event, index)"
             @dragover.prevent
             @dragenter.prevent
