@@ -19,10 +19,10 @@
                 <p class="text-md font-light truncate">Some random</p>
             </div>
 
-            <span v-if="isCorrect === true" class="text-green-500 text-xl items-end pl-[15rem]">
+            <span v-if="isCorrect === true" class="text-green-500 text-xl items-end">
                 <Icon icon="la:check-circle" width="34" height="34"   />
             </span>
-            <span v-if="isCorrect === false" class="text-red-500 text-xl pl-[15rem]">
+            <span v-if="isCorrect === false" class="text-red-500 text-xl ">
                 <Icon icon="weui:error-outlined" width="34" height="34"  />
             </span>
         </div>
@@ -35,7 +35,7 @@
                 <h2 class="text-lg font-extrabold">A</h2>
                 <p class="text-md font-light truncate">Some random</p>
             </div>
-            <span v-if="isWrong === true" class="text-red-500 text-xl pl-[15rem]">
+            <span v-if="isWrong === true" class="text-red-500 text-xl">
                 <Icon icon="weui:error-outlined" width="34" height="34"  />
             </span>
            
